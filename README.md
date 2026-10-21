@@ -34,6 +34,7 @@ Mean of 5-fold cross-validation on the training set. Positive class = heart dise
 | XGBoost (weighted) | 0.204 | 0.401 | 0.608 | 0.270 | 0.511 | 0.215 |
 | SVM (RBF) | 0.000 | 0.000 | 1.000 | 0.000 | 0.509 | 0.211 |
 | SVM (RBF, balanced) | 0.000 | 0.000 | 1.000 | 0.000 | 0.514 | 0.213 |
+| *Random guessing (reference)* | 0.200 | - | - | - | 0.500 | 0.200 |
 
 **How to read this**
 - A random classifier has ROC-AUC 0.50 and PR-AUC equal to the positive rate (0.20). All models are within about 0.02 of these values.
